@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
+}
+
+#custom-form .container #custom-form-row #custom-form-column #custom-form-box {
+  margin-top: 20px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#custom-form .container #custom-form-row #custom-form-column #custom-form-box #custom-form-form {
+  padding: 20px;
+}
+
+#custom-form .container #custom-form-row #custom-form-column #custom-form-box #custom-form-form #register-link {
+  margin-top: -85px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.submit_div {
+  text-align: center;
+}
+
+h3 {
+  padding: 20px;
+}
+
+.table {
+  margin-left: 30% !important
+}

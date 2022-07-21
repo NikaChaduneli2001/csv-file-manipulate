@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>exercise 2</title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link href="style.css?v=1.1" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="custom-form">
+      <div class="container">
+        <div
+          id="custom-form-row"
+          class="row justify-content-center align-items-center"
+        >
+          <div id="custom-form-column" class="col-md-6">
+            <div id="custom-form-box" class="col-md-12">
+              <form enctype="multipart/form-data">
+                <h3 class="text-center text-info">File upload</h3>
+                <div class="form-group">
+                  <label for="file" class="text-info">Select file:</label><br />
+                  <input
+                    type="file"
+                    id="file-upload"
+                    name="uploadedFile"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group submit_div">
+                  <button id="upload" class="btn btn-info btn-md">
+                    Upload
+                  </button>
+                </div>
+                <div class="form-group">
+                  <span class="message"></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <table
+        id="tbl"
+        class="table w-50 l-30 p-3"
+        style="margin-left: 25%; display: none; margin-top: 10%;"
+      >
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Logic</th>
+            <th scope="col">From</th>
+            <th scope="col">To</th>
+            <th scope="col">Sum of Values</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">From < A < To</th>
+            <td>995322492000</td>
+            <td>995322492999</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">From < A < To</th>
+            <td>322492000</td>
+            <td>322492999</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">From < A < To</th>
+            <td>322040000</td>
+            <td>322049999</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">From < A < To</th>
+            <td>706090000</td>
+            <td>706092999</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">From < C < To</th>
+            <td>995322492000</td>
+            <td>995322492999</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">From < C < To</th>
+            <td>995322496000</td>
+            <td>995322497999</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">From < C < To</th>
+            <td>995322040000</td>
+            <td>995322049999</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">C = 8074001</th>
+            <td>8074001</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+    <script type="text/javascript" src="server.js"></script>
+  </body>
+</html>
